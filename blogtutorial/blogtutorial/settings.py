@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-)@6_684gu73to1zy)@bt^!ya(x9n%zk#7r-)n53wsbv2i2*xkv
 DEBUG = True
 
 ALLOWED_HOSTS = ['51.21.56.242', 'localhost']
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
 
 
 # Application definition
