@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'djangoblog',
         'USER': 'admin',
-        'PASSWORD': '12345Qwe',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432'
     }
@@ -114,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'MSK'
+TIME_ZONE = 'UTC+3'
 
 USE_I18N = True
 
